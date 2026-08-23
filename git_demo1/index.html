@@ -1,29 +1,76 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>The rain had been falling all afternoon, turning the streets 
-        into shiny ribbons beneath the gray sky. Somewhere in the distance, a dog barked 
-        while the smell of fresh tea drifted from a nearby kitchen. It was an ordinary 
-        evening, yet everything felt strangely peaceful, as if the whole world had paused
-         for a moment.
-    </p>
-    <h2>HI i a 7th version..</h2>
-    <h2>I havedone some changes..</h2>
-    <p>
-        One sunny morning, Mia found a tiny golden key near the old oak tree.
-         She searched everywhere for the lock it belonged to. At last,
-          she discovered a small wooden box hidden under the tree’s roots.
-           Inside was a note that said, “Kindness is the greatest treasure.”
-            Mia smiled and decided to share the treasure with everyone in her village.
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Simple Web Page</title>
 
-    </p>
-    
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #222;
+      margin: 0;
+      text-align: center;
+    }
+
+    header {
+      background: #2563eb;
+      color: white;
+      padding: 30px;
+    }
+
+    main {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>A simple HTML, CSS, and JavaScript example</p>
+  </header>
+
+  <main>
+    <h2>Hello, World!</h2>
+    <p>This is a clean and beginner-friendly web page.</p>
+
+    <button onclick="showMessage()">Click Me</button>
+
+    <p id="message"></p>
+  </main>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Thanks for clicking the button!";
+    }
+  </script>
+
 </body>
 </html>
+```
+
 
 
